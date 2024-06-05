@@ -150,6 +150,12 @@ body{
     transition-duration: .05s;
 }
 
+.onhovxy:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition-duration: 1ms;
+}
+
 /* Landing Page h1 and p */
 .main_text{
     flex: 1;
