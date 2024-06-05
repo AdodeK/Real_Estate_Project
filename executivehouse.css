@@ -265,7 +265,7 @@ form .simla::placeholder{
 }
 
 form button{
-    width: 100%;
+    /* width: 100%; */
     height: 5vw;
     font-size: 1.3vw;
     border-radius: 0 1.2vw 0 0;

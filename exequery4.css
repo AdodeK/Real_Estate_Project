@@ -61,7 +61,7 @@
  }
  
  .logo{
-     width: 17%;
+     width: 19%;
  }
  .logo img{
      max-width: 100%;
@@ -317,8 +317,8 @@
      overflow: hidden; /*source of overflow*/
  }
  .smalls{
-     width: 80px;
-     height: 80px;
+     width: 50px;
+     height: 50px;
  }
  
  .smalls img{
@@ -526,17 +526,18 @@
      flex-flow: row wrap;
      align-items: center;
      justify-content: space-evenly;
-     gap: 1.5rem;
+     gap: 2rem;
      overflow: auto;
      margin-bottom: 1rem;
  }
  
  .sectional_container{
      border-radius: 1.67vw;
-     height: 290px;
-     width: 200px;
+     height: 350px;
+     width: 250px;
      display: flex;
      flex-flow: column nowrap;
+     box-shadow: -3px 0 2px 0 silver, 3px 0 3px 0 silver, 0 3px 2px 0 silver, 0 -3px 2px 0 silver;
      
  }
  .houses{
@@ -708,6 +709,12 @@
  .unlist_first li a:active{
      color: rgb(188, 57, 57);
  } 
+
+ .unlist::after{
+    content: "@teckodes_2024_by_AdodeK";
+    color: white;
+    font-size: .5rem;
+  }
 
 }
  

@@ -59,7 +59,7 @@ background-image: url('./assets/images/backg.png');
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
-background-position: center;
+background-position: left;
 width: 100%;
 height: 93vh;
 }
@@ -71,12 +71,12 @@ height: 93vh;
 }
 
 .hero_section{
-height: 93.1vh;
-width: 100%;
+height: 93.2vh;
+width: 80%;
 display: flex;
 flex-flow: column nowrap;
-position: relative;
-gap: 4%;
+align-items: center;
+justify-content: center;
 margin-bottom: 1px solid var(--whitebgcolor);
 }
 
@@ -84,7 +84,7 @@ margin-bottom: 1px solid var(--whitebgcolor);
 /* header */
 .header{
 padding: 3% 0;
-width: 80%;
+width: 100%;
 margin: 0 auto;
 display: flex;
 flex-flow: row nowrap;
@@ -93,7 +93,7 @@ align-items: center;
 margin-bottom: 2%;
 }
 .logo{
-width: 13%;
+width: 16%;
 }
 .logo img{
 max-width: 100%;
@@ -103,7 +103,7 @@ filter:saturate(200%);
 .nav{
 display: flex;
 flex-flow: row nowrap;
-gap: 3rem;
+gap: 2.5rem;
 align-items: center
 }
 
@@ -113,13 +113,11 @@ align-items: center
   }
   /*be guided oh*/
 
-
-
 .nav_ul{
 display: flex;
 flex-flow: row nowrap;
 list-style-type: none;
-gap: 3rem;
+gap: 2.5rem;
 }
 .nowrap{
 white-space: nowrap;
@@ -162,51 +160,49 @@ transition-duration: .05s;
 
 /* Landing Page h1 and p */
 .main_text{
-width: 80%;
-margin: 0 auto;
+width: 100%;
 display: flex;
+flex-grow: 1;
 flex-flow: column nowrap;
 justify-content: center;
 align-items: flex-start;
+padding-bottom: 6%;
 }
 #hero_h1{
 color: #fff;
-font-size: 4.5rem;
-line-height: 4.2rem;
-margin-bottom: 6%;
-
+font-size: 5rem;
+line-height: 4.5rem;
+margin-bottom: 3%;
 }
 .main_text .hero_pp{
 color: var(--pcolorwithopacity);
-font-size: 2rem;
-line-height: 2.3rem;
+font-size: 1.8rem;
+line-height: 2rem;
 margin-bottom: 1%;
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 /* Bottom Landing Page */
 /* Bottom Landing Page */
 .see_all{
-width: 80%;
-height: 7vh;
+width: 100%;
+height: 6vh;
 background-color: var(--whitebgcolor);
 color: var(--blacktextcolor);
 display: grid;
 place-content: center start;
 padding-left: 6%;
-position: absolute;
-left: 10%;
-bottom: 0;
 margin-bottom: 1px solid var(--whitebgcolor);
 }
 
 .hero_section .see_all p{
-font-size: 2rem;
+font-size: 1.8rem;
 color: #000;
 }
 
 .hero_section .see_all .fa-right-long{
 color: var(--btnorange);
-font-size: 2rem;
+font-size: 1.8rem;
 }
 
 /*section Two*/
@@ -271,8 +267,8 @@ margin: 0 0 2%;
 
 .move_on .right .text p{
 width: 90%;
-font-size: 2rem;
-line-height: 2.4rem;
+font-size: 1.8rem;
+line-height: 2.2rem;
 margin-bottom: 1%;
 }
 
@@ -387,7 +383,7 @@ flex: 4.5;
 width: 100%;
 padding-left: 10%;
 background-color: white;
-font-size: 1.9rem;
+font-size: 1.8rem;
 flex: 2.2;
 display: grid;
 place-content: center start;
@@ -501,8 +497,8 @@ margin-bottom: 3vh;
 }
 
 .move_onnow .rightt .text p{
-font-size: 2rem;
-line-height: 2.3rem;
+font-size: 1.8rem;
+line-height: 2.2rem;
 margin-bottom: 4%;
 }
 
@@ -526,11 +522,10 @@ font-size: 1.5rem;
 /*darkbg*/
 
 .darkbg_contain{
-margin-top: 20vh;
+margin-top: 15vw;
 width: 100%;
-height: 75vh;
+height: 60vh;
 background-color: var(--blackbgcolor);
-
 }
 
 .darkbg{
@@ -559,8 +554,8 @@ color: #fff;
 }
 
 .darkbg p{
-font-size: 2rem;
-line-height: 2.3rem;
+font-size: 1.8rem;
+line-height: 2.2rem;
 color: var(--pcolorwithopacity);
 margin-bottom: 2%;
 }
@@ -592,7 +587,7 @@ width: 100%;
 .section_within{
 width: 80%;
 margin: 0 auto;
-padding: 13vh 0;
+padding: 12vh 0;
 display: flex;
 flex-flow: column nowrap;
 justify-content: space-between;
@@ -605,10 +600,10 @@ background-image: linear-gradient(to right, #FFAC12, #000000);
 height: 3px;
 }
 .section_within .with_quotes{
-font-size: 2rem;
-line-height: 2.3rem;
+font-size: 1.8rem;
+line-height: 2.2rem;
 font-weight: 700;
-width: 39%;
+width: 40%;
 }
 .section_within .three_in_line{
 width: 100%;
@@ -616,12 +611,12 @@ display: flex;
 flex-flow: row wrap;
 justify-content: space-between;
 align-items: end;
-height: 18vh;
+height: 17vh;
 }
 
 .similar, .similar_dark{
 width: calc(33% - 1rem);        /*experiment with left content*/
-min-width: 200px;           /*experiment with left content*/
+min-width: 250px;           /*experiment with left content*/
 display: flex;
 height: 100%;
 align-items: center;
@@ -637,13 +632,14 @@ color: var(--whitetextcolor);
 
 .similar h5, .similar_dark h5{
 font-size: 1.5rem;
-line-height: 1.2rem;
+line-height: 1.5rem;
+margin-bottom: 4%;
 }
 
 .small{
 font-size: 1.4rem;
 line-height: 1rem;
-color: #979797;
+color: #7d7d7d;
 }
 
 .similar div, .similar_dark div{

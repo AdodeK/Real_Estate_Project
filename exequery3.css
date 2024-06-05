@@ -101,7 +101,7 @@
      background-color:#FFAC12;
      font-size: 1.5vw;
      width: 14vw;
-     padding: 1.4vh 1vw 1.4vh;
+     padding: 1.5vw 1vw 1.5vw;
      border: 1px solid #FFAC12;
      border-radius: 0 1.66vw 0 0;
  }
@@ -497,17 +497,19 @@
      display: grid;
      grid-template-columns: 1fr;
      gap: 2vw;
+     place-content: center;
  }
  
  .overflow .floating_barr{
-     width: 17%;
+     width: 100%;
      background-image: linear-gradient(to right, #FFAC12, #000000);
      height: .2vw;
  }
  .overflow h2{
-     font-size: 3.9vw;
+     font-size: 4.3vw;
      line-height: 3.9vw;
      margin-bottom: 4vw;
+     text-align: center;
  }
  
  section.overflow_x{
